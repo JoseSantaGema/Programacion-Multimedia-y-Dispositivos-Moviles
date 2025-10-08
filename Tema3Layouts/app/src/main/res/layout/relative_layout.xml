@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/padre">
+
+    <!-- Hijo 1: Arriba a la derecha -->
+    <RelativeLayout
+        android:id="@+id/hijo1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="#ff0000" />
+
+    <!-- Hijo 2: A la izquierda de Hijo 1, desplazado 50dp hacia abajo -->
+    <RelativeLayout
+        android:id="@+id/hijo2"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:layout_toLeftOf="@id/hijo1"
+        android:background="#0000ff" />
+
+    <!-- Hijo 3: Debajo de Hijo 2, alineado a la izquierda -->
+    <RelativeLayout
+        android:id="@+id/hijo3"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignLeft="@id/hijo2"
+        android:layout_below="@id/hijo2"
+        android:background="#00ff00" />
+
+</RelativeLayout>
