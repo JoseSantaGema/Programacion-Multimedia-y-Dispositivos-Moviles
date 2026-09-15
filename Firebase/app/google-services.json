@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "727665016562",
+    "project_id": "pruebadam-8730c",
+    "storage_bucket": "pruebadam-8730c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727665016562:android:5ae5ea9241693159b81a6b",
+        "android_client_info": {
+          "package_name": "com.example.firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlnmMHvMfL8x6YnELGHBgqCV-_8-dyUN4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

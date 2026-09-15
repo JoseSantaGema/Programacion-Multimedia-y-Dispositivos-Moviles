@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="top"
+        android:padding="16dp">
+
+        <!-- Texto normal -->
+        <EditText
+            android:id="@+id/etText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Texto"
+            android:inputType="text"
+            android:imeOptions="actionNext" />
+
+        <!-- Multi-línea -->
+        <EditText
+            android:id="@+id/etMultiLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Texto multi-línea"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:gravity="top|start"
+            android:scrollbars="vertical"
+            android:imeOptions="flagNoEnterAction" />
+
+        <!-- Nombre de persona -->
+        <EditText
+            android:id="@+id/etPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre y apellidos"
+            android:inputType="textPersonName"
+            android:imeOptions="actionNext" />
+
+        <!-- Email -->
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Correo electrónico"
+            android:inputType="textEmailAddress"
+            android:autofillHints="emailAddress"
+            android:imeOptions="actionNext" />
+
+        <!-- Número (entero) -->
+        <EditText
+            android:id="@+id/etNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Número (entero)"
+            android:inputType="number"
+            android:imeOptions="actionNext" />
+
+        <!-- Número decimal -->
+        <EditText
+            android:id="@+id/etNumberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Número decimal"
+            android:inputType="numberDecimal"
+            android:imeOptions="actionNext" />
+
+        <!-- Teléfono -->
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Teléfono"
+            android:inputType="phone"
+            android:imeOptions="actionNext" />
+
+        <!-- Contraseña (texto oculto) -->
+        <EditText
+            android:id="@+id/etTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contraseña (texto)"
+            android:inputType="textPassword"
+            android:autofillHints="password"
+            android:imeOptions="actionNext" />
+
+        <!-- PIN (numérico oculto) -->
+        <EditText
+            android:id="@+id/etNumberPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="PIN (numérico)"
+            android:inputType="numberPassword"
+            android:imeOptions="actionNext" />
+
+        <!-- Fecha (teclado de fecha) -->
+        <EditText
+            android:id="@+id/etDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fecha"
+            android:inputType="date"
+            android:imeOptions="actionDone" />
+
+    </LinearLayout>
+</ScrollView>
